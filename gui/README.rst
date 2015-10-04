@@ -34,25 +34,25 @@ is not installable via pip).
 
 - On OSX (using Homebrew_): ::
 
-    ..* Install qt and pyqt using brew
+     Install qt and pyqt using brew
 
         brew install pyqt
 
-    ..* Install qt-creater for creating ui files
+    Install qt-creater for creating ui files
 
         brew install caskroom/cask/brew-cask
         brew cask install qt-creator
 
-    ..* Create Symbolic link to the Applications folder(optional)
+    Create Symbolic link to the Applications folder(optional)
 
         sudo ln -s /opt/homebrew-cask/Caskroom/qt-creator/3.4.0/Qt\ Creator.app/ /Applications/Qt\ Creator.app
 
-    ..* Configure qt-creator
+    Configure qt-creator
 
-        - Launch qt-creator and open preferences
-        - Select Build & Run on the left and Qt Versions on the right
-        - Add Qt Version
-        - Search by typing cmd + shift + g and path /usr/local/qt/(qt-version)/qmake
+        Launch qt-creator and open preferences
+        Select Build & Run on the left and Qt Versions on the right
+        Add Qt Version
+        Search by typing cmd + shift + g and path /usr/local/qt/(qt-version)/qmake
 
 .. _MacPorts: http://www.macports.org
 .. _Homebrew: http://brew.sh
